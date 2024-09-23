@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    font-size: 40px;
+    margin: 20px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#clock, #timer {
+    font-size: 80px;
+    margin: 20px 0;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 5px;
+    animation: fadeIn 1s ease;
+}
+
+input {
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+   
+}
